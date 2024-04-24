@@ -107,26 +107,6 @@ class Libreta:
 
 libreta = Libreta()
 
-#Contactos prueba
-prm_nombre= "Juan"
-seg_nombre = "Manuel"
-apellido = "Gomez"
-numero = "12345"
-correo = "contacto@gmail.com"
-libreta.crear_contacto(prm_nombre, seg_nombre, apellido, numero, correo)
-prm_nombre = "Juan"
-seg_nombre = "Luis"
-apellido = "Garzon"
-numero = "12345"
-correo = "contacto@gmail.com"
-libreta.crear_contacto(prm_nombre, seg_nombre, apellido, numero, correo)
-prm_nombre = "Juan"
-seg_nombre = ""
-apellido = "Garcia" 
-numero = "12345"
-correo = "contacto@gmail.com"
-libreta.crear_contacto(prm_nombre, seg_nombre, apellido, numero, correo)
-
 def crear_contacto():
     """Esta funcion se ejecuta cuando se presiona el boton de 'Crear Contacto'
     y muestra los widgets que van a permitir ingresar la informacion del 
